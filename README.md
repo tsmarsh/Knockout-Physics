@@ -1,11 +1,7 @@
-## Coffee Physics
+## Knockout Physics
 
-A lightweight physics engine, written in [CoffeeScript](http://coffeescript.org/). Why? Why not!?
+This builds on the fantastic work of [http://soulwire.github.com/Coffee-Physics/](http://soulwire.github.com/Coffee-Physics/), replacing the rendering subsystem with KnockoutJS.
 
-Early demos can be found here: [http://soulwire.github.com/Coffee-Physics/](http://soulwire.github.com/Coffee-Physics/)
+Knockout and Angular both represent a massive shift towards client side development, dramatically simplfiying the binding of the view to the model, but are they fast for game development? 
 
-### Please Note
-
-I released this super early for FITC Amsterdam, after only minor testing in Chrome. There are a lot of optimisations needed, as well as several bug fixes (mainly in the WebGL renderer) so over the coming weeks I'll be focussing on these, as well as adding 3D support.
-
-Consider this pre-release! ;)
+I think this spike proves that for Knockout the answer is a resounding "Yes!". Looking forward to trying this with Angular next.
