@@ -22,6 +22,8 @@ class Particle
 
 		# Current position.
 		@pos = new Vector()
+		@x = ko.observable(@pos.x)
+		@y = ko.observable(@pos.y)
 
 		# Current velocity.
 		@vel = new Vector()
